@@ -1,0 +1,92 @@
+body {
+scroll-behavior: smooth;
+background-color: #ccd8e4;
+color: #112a46;
+}
+
+.navbar-nav .nav-item .nav-link {
+font-size: 2rem;
+color: #112a46;
+}
+
+.navbar {
+font-family: "Roboto", sans-serif;
+}
+
+.nav-link {
+color: #ccd8e4;
+display: block;
+font-weight: 900;
+}
+
+.nav-link:hover {
+text-decoration: underline;
+}
+
+
+ul {
+list-style: none;
+}
+
+img {
+max-width: 100%;
+display: block;
+height: auto;
+}
+
+#profile-image {
+box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+
+h1, h2, h3, button   {
+font-family: "Roboto", sans-serif;
+}
+
+p, input, label, textarea {
+font-family: "Nunito", sans-serif;
+}
+
+#connect-me-button:hover {
+box-shadow: 3px 3px 3px 3px rgba(255, 255, 255, 0.3);
+}
+
+.ionicons {
+height: 2.19em;
+width: 2.19em;
+margin-bottom: 0.75em;
+}
+
+label {
+font-size: 1.25rem;
+}
+
+/*
+input {
+max-width: 25em;
+}
+
+textarea {
+max-width: 50em;
+}
+
+form {
+margin-top: 0.5em;
+}
+*/
+
+input:focus-within {
+font-weight: bold;
+}
+
+input:focus-visible, textarea:focus-visible {
+outline: 0.19em solid #000000;
+}
+
+ 
+/* 
+font-family: "Roboto", sans-serif;
+font-family: "Nunito", sans-serif;
+Title font: Roboto
+Paragraph font: Nunito
+*/
