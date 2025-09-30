@@ -31,13 +31,29 @@ list-style: none;
 img {
 max-width: 100%;
 display: block;
-height: auto;
+block-size: auto;
+}
+
+#home img {
+border radius: 0.63em;
 }
 
 #profile-image {
-box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.3);
+box-shadow: 0.19em 0.19em 0.19em 0.19em rgba(0, 0, 0, 0.3);
 }
 
+/* Styling for the About Me text column to prevent it from stretching too wide on large screens. */
+
+.about-me-text {
+    /* Limit the overall width of the content column */
+    max-width: 62.5em; /* Approximately 1000px if base font size is 16px */
+    margin: 0 auto; /* Center the content within its container if it is less than 100% width */
+}
+
+
+.resume-text {
+max-width: 62.5em;
+}
 
 h1, h2, h3, button   {
 font-family: "Roboto", sans-serif;
@@ -48,7 +64,7 @@ font-family: "Nunito", sans-serif;
 }
 
 #connect-me-button:hover {
-box-shadow: 3px 3px 3px 3px rgba(255, 255, 255, 0.3);
+box-shadow: 0.19em 0.19em 0.19em 0.19em rgba(0, 0, 0, 0.3);
 }
 
 .ionicons {
@@ -59,6 +75,7 @@ margin-bottom: 0.75em;
 
 label {
 font-size: 1.25rem;
+display: block;
 }
 
 /*
